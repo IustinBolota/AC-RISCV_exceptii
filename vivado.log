@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Apr 29 18:05:08 2026
+# Process ID         : 8436
+# Current directory  : D:/Facultate/Anul II/AC/tema_bonus
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent5492 D:\Facultate\Anul II\AC\tema_bonus\tema_bonus.xpr
+# Log file           : D:/Facultate/Anul II/AC/tema_bonus/vivado.log
+# Journal file       : D:/Facultate/Anul II/AC/tema_bonus\vivado.jou
+# Running On         : DESKTOP-KUGVVLJ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12500H
+# CPU Frequency      : 3110 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16849 MB
+# Swap memory        : 8053 MB
+# Total Virtual      : 24902 MB
+# Available Virtual  : 16383 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Facultate/Anul II/AC/tema_bonus/tema_bonus.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Facultate/Anul II/AC/tema_bonus/tema_bonus.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+archive_project {D:/Facultate/Anul II/AC/tema_bonus.xpr.zip} -temp_dir {D:/Facultate/Anul II/AC/tema_bonus/.Xil/Vivado-8436-DESKTOP-KUGVVLJ} -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/Facultate/Anul II/AC/tema_bonus/.Xil/Vivado-8436-DESKTOP-KUGVVLJ' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Facultate/Anul II/AC/tema_bonus/tema_bonus.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/Facultate/Anul II/AC/tema_bonus/.Xil/Vivado-8436-DESKTOP-KUGVVLJ/PrjAr/_X_/tema_bonus.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/Facultate/Anul II/AC/tema_bonus.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+ERROR: [Common 17-39] 'archive_project' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\data_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Iustin Bolota\Downloads\control_path.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+import_files {{C:/Users/Iustin Bolota/Downloads/tb_top.v} {C:/Users/Iustin Bolota/Downloads/top.v} {C:/Users/Iustin Bolota/Downloads/data_path.v} {C:/Users/Iustin Bolota/Downloads/control_path.v}}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 29 18:11:14 2026...

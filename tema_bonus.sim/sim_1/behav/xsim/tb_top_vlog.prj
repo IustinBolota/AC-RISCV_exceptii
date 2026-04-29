@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/Iustin Bolota/Downloads/control_path.v" \
+"C:/Users/Iustin Bolota/Downloads/data_path.v" \
+"C:/Users/Iustin Bolota/Downloads/top.v" \
+"C:/Users/Iustin Bolota/Downloads/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
